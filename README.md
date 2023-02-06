@@ -134,7 +134,7 @@ binding. Any variables or methods that are available from the line you placed
 your `binding.pry` will be available to you to explore from the terminal.
 
 Now, in the terminal, in your pry console, type the variable name
-`this_variable_hasnt_been_interpreted_yet`. You should see a return value of
+`-`. You should see a return value of
 `nil`. That's because the binding you placed on line 7 actually froze the
 program on line 7 and the variable you just called hasn't been interpreted yet.
 Consequently, our REPL doesn't know about it.
